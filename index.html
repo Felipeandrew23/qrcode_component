@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- display -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+
+  <!-- CSS -->
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background-color: hsl(212, 45%, 89%);
+      font-family: 'Outfit', sans-serif;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+    }
+
+    #box_of_qrcode {
+      width: 320px;
+      padding: 16px;
+      border-radius: 19px;
+      background-color: white;
+      box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+    }
+
+    #box_of_qrcode>img {
+      max-width: 100%;
+      border-radius: 10px;
+    }
+
+    #title {
+      text-align: center;
+      font-size: 1.4rem;
+      margin: 20px 0;
+      color: hsl(218, 44%, 22%);
+    }
+
+    #para {
+      text-align: center;
+      margin-bottom: 20px 0px;
+      color: hsl(220, 15%, 55%);
+    }
+  </style>
+
+  <title>Estudo | QR code component</title>
+
+</head>
+
+<body>
+  <!-- main -->
+  <div id="box_of_qrcode">
+    <img src="./images/image-qr-code.png" alt="" srcset="">
+    <h2 id="title">Para baixar o nosso App</h2>
+
+    <p id="para">Escaneie o QR Code</p>
+
+  </div>
+
+  </div>
+</body>
+
+</html>
